@@ -6,7 +6,7 @@ class ListViewSeperatedPage extends StatefulWidget {
 }
 
 class _ListViewSeperatedPageState extends State<ListViewSeperatedPage> {
-  // list of 244 colors
+  // list of 245 colors
   List<String> colors = [
     'Red',
     'Orange',

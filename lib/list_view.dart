@@ -16,7 +16,7 @@ class _ListViewPageState extends State<ListViewPage> {
         centerTitle: true,
       ),
       body: Padding(
-        padding: EdgeInsets.all(24),
+        padding: EdgeInsets.all(24), // adds padding
         child: ListView(
           children: [
             colorBlock(
@@ -51,15 +51,15 @@ class _ListViewPageState extends State<ListViewPage> {
   }) {
     Color color = getColorFromString(
       text: text,
-    );
+    ); // returns color from method
     return Container(
-      height: 100,
-      color: color,
+      height: 100, // sets height
+      color: color, // sets color
       child: Center(
         child: Text(
           text,
           style: TextStyle(
-            color: Colors.white,
+            color: Colors.white, // sets text color
           ),
         ),
       ),
@@ -67,6 +67,7 @@ class _ListViewPageState extends State<ListViewPage> {
   }
 
   Color getColorFromString({@required String text}) {
+    // returns color based on text value
     switch (text.toLowerCase()) {
       case 'red':
         return Colors.red;
@@ -89,7 +90,7 @@ class _ListViewPageState extends State<ListViewPage> {
       case 'violet':
         return Colors.purple;
         break;
-      default:
+      default: // defaults to red
         return Colors.red;
         break;
     }

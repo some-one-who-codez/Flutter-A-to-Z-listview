@@ -6,7 +6,7 @@ class ListViewBuilderPage extends StatefulWidget {
 }
 
 class _ListViewBuilderPageState extends State<ListViewBuilderPage> {
-  // list of 244 colors
+  // list of 245 colors
   List<String> colors = [
     'Red',
     'Orange',
