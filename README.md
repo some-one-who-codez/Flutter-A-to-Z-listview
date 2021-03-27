@@ -1,6 +1,6 @@
 # ListViews
 
-A new Flutter project. This is the source code for [this](Ehttps://youtu.be/WGvXHUcj0nI) tutorial
+A new Flutter project. This is the source code for [this](https://youtu.be/WGvXHUcj0nI) tutorial
 
 - [YouTube](https://www.youtube.com/channel/UCgzDyB6FRT2sNhh0QhB7gtQ)
 - [Instgram](https://www.instagram.com/some.one.who.codez/)
